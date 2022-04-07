@@ -188,7 +188,7 @@ If you installed a previous version of the SharePoint Online Management Shell, c
 To enable Microsoft 365 group-membership based access and sharing control for all Implicit mode sites in your organization, run the following command:
 
 ```powershell
-Set-SPOTenant - IBImplicitGroupBased $true
+Set-SPOTenant -IBImplicitGroupBased $true
 ```
 
 >[!NOTE]
